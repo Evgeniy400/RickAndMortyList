@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/projects/AndroidStudio/RickAndMortyList/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
         <entry key="..\:/projects/AndroidStudio/RickAndMortyList/app/src/main/res/layout/fragment_character.xml" value="0.5541666666666667" />
+        <entry key="..\:/projects/AndroidStudio/RickAndMortyList/app/src/main/res/layout/fragment_description.xml" value="0.33" />
+        <entry key="..\:/projects/AndroidStudio/RickAndMortyList/app/src/main/res/layout/fragment_recycler.xml" value="0.5541666666666667" />
       </map>
     </option>
   </component>

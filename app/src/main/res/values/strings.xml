@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">RickAndMortyList</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="species_is">Species is:</string>
+    <string name="gender_is">Gender is:</string>
+    <string name="status_is">Status is:</string>
+    <string name="last_known_location_is">Last known location is:</string>
+    <string name="total_count_of_episodes_is">Total count of episodes is:</string>
 </resources>

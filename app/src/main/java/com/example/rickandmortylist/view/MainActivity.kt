@@ -1,9 +1,10 @@
 package com.example.rickandmortylist.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.rickandmortylist.databinding.ActivityMainBinding
+import com.example.rickandmortylist.view.fragment.RecyclerFragment
 import com.example.rickandmortylist.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
@@ -16,10 +17,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-        subscribeToVM()
-    }
-
-    private fun subscribeToVM() {
-
+        supportFragmentManager.beginTransaction()
+            .add(binding.fragmentContainerView.id, RecyclerFragment())
+            .addToBackStack(null)
+            .commit()
     }
 }
